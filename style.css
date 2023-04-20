@@ -35,7 +35,7 @@ body {
     display: inline-block;
     margin: 0px 10px;
     text-decoration: none;
-    color: #E5E7E8;
+    color: #E5E7EB;
 }
 
 .hero-text {
@@ -52,7 +52,7 @@ body {
 
 .hero-subtext, .header-links {
     font-size: 18px;
-    color: #E5E7E8;
+    color: #e5e7eb;
 }
 
 .hero-image {
@@ -96,4 +96,30 @@ body {
 .info-text {
     margin-top: 5px;
     width: 125px;
+}
+
+.quote-container {
+    height: 543px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    width: 65%;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.quote-credit {
+    width: 65%;
+    display: block;
+    font-size: 36px;
+    font-style: bold;
+    text-align: right;
+    margin-bottom: 90px;
 }
