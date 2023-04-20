@@ -99,7 +99,6 @@ body {
 }
 
 .quote-container {
-    height: 543px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -139,16 +138,14 @@ body {
     font-size: 18px;
     font-weight: bold;
     color:#F9FAF8;
-    padding-top: 25px;
-    padding-left: 5%;
+    padding-top: 45px;
 }
 
 .banner-subtext {
     margin: 0px;
     font-size: 18px;
     color:#E5E7EB;
-    padding-bottom: 25px;
-    padding-left: 5%;
+    padding-bottom: 45px;
 }
 
 .banner-button {
@@ -158,4 +155,21 @@ body {
     border: 1px solid #F9FAF8;
     border-radius: 10px;
     margin-top: 43px;
+}
+
+.banner-content-container {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.button:hover {
+    background-color: #F9FAF8;
+    color: #1F2937;
+}
+
+.banner-button:hover {
+    background-color: #F9FAF8;
+    color: #1F2937;
 }
