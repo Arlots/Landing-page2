@@ -77,7 +77,7 @@ body {
     text-align: center;
 }
 
-.info-pic-container {
+.info-pic-container, .info-text-container {
     height: 125px;
     width: 65%;
   /*  border: 1px solid; */
@@ -91,6 +91,9 @@ body {
     height: 125px;
     width: 125px;
     border-radius: 15px;
- 
+}
 
+.info-text {
+    margin-top: 5px;
+    width: 125px;
 }
