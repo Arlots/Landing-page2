@@ -123,3 +123,39 @@ body {
     text-align: right;
     margin-bottom: 90px;
 }
+
+.banner-container {
+    width: 70%;
+    margin: auto;
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 45px;
+}
+
+.banner-text {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#F9FAF8;
+    padding-top: 25px;
+    padding-left: 5%;
+}
+
+.banner-subtext {
+    margin: 0px;
+    font-size: 18px;
+    color:#E5E7EB;
+    padding-bottom: 25px;
+    padding-left: 5%;
+}
+
+.banner-button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border: 1px solid #F9FAF8;
+    border-radius: 10px;
+    margin-top: 43px;
+}
