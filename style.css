@@ -131,6 +131,7 @@ body {
     border-radius: 15px;
     display: flex;
     margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 .banner-text {
@@ -172,4 +173,13 @@ body {
 .banner-button:hover {
     background-color: #F9FAF8;
     color: #1F2937;
+}
+
+.footer-container {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
 }
