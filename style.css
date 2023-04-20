@@ -96,6 +96,7 @@ body {
 .info-text {
     margin-top: 5px;
     width: 125px;
+    text-align: center;
 }
 
 .quote-container {
